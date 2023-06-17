@@ -1,0 +1,184 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Bitter;
+    src: url(css/Bitter-VariableFont_wght.ttf)
+}
+
+body{
+    background-color: #E8F1F5;
+    font-family: Bitter;
+}
+
+/*header*/
+
+header{
+    margin: 0 auto;
+    width: 1920px;
+    height: 90px;
+    background-color: #005691;
+}
+
+.header_cont{
+    margin: 0 auto;
+    max-width: 975px;
+    display: flex;
+    gap: 35px;
+}
+
+.logo{
+    margin: 3px 225px 0px 0px;
+}
+
+.header_text{
+    color: #E8F1F5;
+    font-family: Bitter;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+/* main page */
+
+.main_page{
+    width: 975px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.fast_search_block{
+    width: 975px;
+    height: 256px;
+    background: url(css/boat.jpg);
+    background-size: 975px 256px;
+    margin-top: 56px;
+}
+
+.search_bar{
+    width: 820px;
+    height: 90px;
+    background-color: white;
+    border: 6px solid #FF9A00;    
+    top: 50%;
+    left: 50%;
+    position: relative;
+    transform: translate(-50%,-50%);
+    display: grid;
+    grid-template-columns: 166px 166px 136px 74px 145px;
+    gap: 26px;
+    padding-left: 18px;
+}
+
+
+.bar{
+    height: 32px;
+    border: 1px solid #005691;
+    margin-top: 28px;
+}
+
+.bar-search{
+    height: 54px;
+    background-color: #FF9A00;
+    border-radius: 3px;
+    color: #E8F1F5;
+    font-family: Bitter;
+    font-size: 24px;
+    margin: 12px 18px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h3{
+    margin: 120px 0px 41px 0px;
+    color: #004A7C;
+}
+
+.offers{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   column-gap: 67px;
+   row-gap: 10px;
+
+}
+
+.of_pics{
+    width: 280px;
+    height: 160px;
+}
+
+.of_txt{
+    font-size: 20px;
+    font-family: Bitter;
+}
+
+.show_more{
+    margin: 52px auto 168px auto;
+    width: 210px;
+    height: 50px;
+    border: 1px solid #004A7C;
+    background-color: #F6F4F4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #004A7C;
+    font-size: 18px;
+    font-family: Bitter;
+}   
+
+/* footer */
+
+footer{
+    margin: 0 auto;
+    width: 1920px;
+    height: 495px;
+    background-color: #151515;
+    color: #A6A5A5;
+}
+
+.info{
+    display: flex;
+    gap: 147px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+}
+
+.info__box{
+    line-height: 1.25;
+    margin: 31px auto 50px 46px;
+}
+
+.links{
+    display: flex;
+    gap: 285px;
+}
+
+.links__text{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 46px;
+}
+
+.links__img{
+    display: flex;
+    margin: 44px auto 0 46px;
+    gap: 21px;
+}
+
+.cards{
+    
+    margin-left: 161px;
+}
+
+
+
+
+
+
+
+
+
+
